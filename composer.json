@@ -1,0 +1,19 @@
+{
+    "name": "rucaua/epa-request",
+    "type": "library",
+    "description": "Abstract request object",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maksym Tymofeiev",
+            "email": "tymofeiev.m@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": { "rucaua\\epa\\request\\": "src" }
+    }
+}
